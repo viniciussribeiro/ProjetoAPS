@@ -4,25 +4,58 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Styles/styles.css">
-        <title></title>
+        <link rel="stylesheet" href="Styles/footer.css">
+        <link rel="stylesheet" href="Styles/index.css">
+        <title>E-Cars | Início</title>
     </head>
 
     <body>
         <footer class="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox -->
-            <div class="logo"> <!-- Logo da E-Cars | Precisa sobrepor as imagens -->
-                <img>
-                <img>
-                <h1><span class="logo-text">E</span>-<span class="logo-text">Cars</span></h1>
+            <div class="container logo"> <!-- Logo da E-Cars | Precisa sobrepor as imagens -->
+                <img src="Files/logo-fundo.png" alt="fundo"> <!-- Fundo preto do logo -->
+                <img src="Files/logo-desenho.png" alt="logo"> <!-- Desenho do logo -->
+                <h1><span class="logo-text">E</span>-        <!-- Texto do logo | único h1 na página -->
+                    <span class="logo-text">Cars</span></h1> <!-- Texto do logo | formatar a classe .logo-text -->
             </div>
 
             <nav> <!-- Barra de navegação -->
                 <ul>
-                    <li>Modelos</li>
-                    <li>Meio Ambiente</li>
-                    <li>Vantagens</li>
+                    <li><a href="modelos.html">Modelos</a></li>
+                    <li><a href="meioambiente.html">Meio Ambiente</a></li>
+                    <li><a href="vantagens.html">Vantagens</a></li>
                 </ul>
             </nav>
         </footer>   
+
+        <main> <!-- Corpo da página -->
+            <section class="img1"> <!-- Aqui vai a imagem grande -->
+                <img src="Files/img1.png">
+            </section>
+            
+            <section class="titulo"> <!-- Título | O único h2 da página -->
+                <h2>Bem vindo ao E-Cars!</h2>
+                <h2>Amantes dos carros elétricos</h2>
+            </section>
+
+            <section class="container"> <!-- Aqui entra toda aquela linha de imagens e texto do final da página -->
+                <div class="img2">
+                    <img src="Files/img2.png">
+                </div>
+
+                <div>
+                    <img src="Files/Rectangle 3.png"> <!-- (Aquele retângulo verde em cima do texto) -->
+                    <article>
+                        Melhor aproveitamento de energia, aprimoramento 
+                        de performance, torque e economia em relação a
+                        combustão e fatores ambientais 
+                    </article>
+                    <img src="Files/Rectangle 4.png"> <!-- (Aquele retângulo verde em baixo do texto) -->
+                </div>
+
+                <div class="img3">
+                    <img src="Files/img3.png">
+                </div>
+            </section>
+        </main>     
     </body>
 </html>
