@@ -1,3 +1,8 @@
+/* 
+   Aqui é o CSS para estilizar o cabeçalho
+   Como ele vai em todas as páginas coloquei a classe container aqui pra facilitar meu trabalho
+*/
+
 .container {
     display: flex;
 }
