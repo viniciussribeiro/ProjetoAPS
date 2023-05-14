@@ -10,24 +10,21 @@
     </head>
 
     <body>
-        <footer class="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox -->
-            <a href="index.html"> <!-- Clicando no logo volta pra página inicial -->
-                <div class="container logo"> <!-- Logo da E-Cars | Precisa sobrepor as imagens -->
-                    <img src="Files/logo-fundo.png" alt="fundo"> <!-- Fundo preto do logo -->
-                    <img src="Files/logo-desenho.png" alt="logo"> <!-- Desenho do logo -->
-                    <h1><span class="logo-text">E</span>-        <!-- Texto do logo | único h1 na página -->
-                        <span class="logo-text">Cars</span></h1> <!-- Texto do logo | formatar a classe .logo-text -->
-                </div>
-            </a>
-
+        <header id="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox --> 
             <nav> <!-- Barra de navegação -->
+                <img src="Files/logo.png" alt="" style="background-color: black;">
+                <a href="index.html">
+                
+                <h1>E<span id="traco">-</span>      <!-- Texto do logo | único h1 na página -->
+                    Cars</h1> <!-- Texto do logo | formatar a classe .logo-text -->
+                </a>
                 <ul>
                     <li><a href="modelos.html">Modelos</a></li>
                     <li><a href="meioambiente.html">Meio Ambiente</a></li>
                     <li><a href="vantagens.html">Vantagens</a></li>
                 </ul>
             </nav>
-        </footer>   
+        </header>   
 
         <main> <!-- Corpo da página -->
             <section class="img1"> <!-- Aqui vai a imagem grande -->
@@ -39,8 +36,8 @@
                 <h2>Amantes dos carros elétricos</h2>
             </section>
 
-            <section class="container"> <!-- Aqui entra toda aquela linha de imagens e texto do final da página -->
-                <div class="img2">
+            <section> <!-- Aqui entra toda aquela linha de imagens e texto do final da página -->
+                <div>
                     <img src="Files/Index/img2.png">
                 </div>
 
