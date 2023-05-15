@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    color: #7CA40A;
+    font-size: 30px;
+}
+#container {
+    margin-top: 0;
+    padding:0;
+}
+#linkHome {
+    text-decoration: none;
+}
+#traco {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    background-color: black;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px;
+    
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+nav ul li a {
+    color: #7CA40A;
+    text-decoration: none;
+    
+}
+#grupoLogo {
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+#titulo {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+#frame {
+    background-color: #101410;
+    color: white;
+    width: 70%;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+#frame ul {
+    list-style: none;
+}
+#frame ul li {
+    margin-bottom: 10px;
+}
+.list {
+    width: 20px;
+    height: 20px;
+}

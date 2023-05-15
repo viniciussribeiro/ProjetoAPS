@@ -10,45 +10,41 @@
     </head>
 
     <body>
-        <footer class="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox -->
-            <a href="index.html"> <!-- Clicando no logo volta pra página inicial -->
-                <div class="container logo"> <!-- Logo da E-Cars | Precisa sobrepor as imagens -->
-                    <img src="Files/logo-fundo.png" alt="fundo"> <!-- Fundo preto do logo -->
-                    <img src="Files/logo-desenho.png" alt="logo"> <!-- Desenho do logo -->
-                    <h1><span class="logo-text">E</span>-        <!-- Texto do logo | único h1 na página -->
-                        <span class="logo-text">Cars</span></h1> <!-- Texto do logo | formatar a classe .logo-text -->
-                </div>
-            </a>
-
+        <header id="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox --> 
             <nav> <!-- Barra de navegação -->
-                <ul>
-                    <li><a href="modelos.html">Modelos</a></li>
-                    <li><a href="meioambiente.html">Meio Ambiente</a></li>
-                    <li><a href="vantagens.html">Vantagens</a></li>
-                </ul>
+                <a href="index.html" id="grupoLogo">
+                     <img src="Files/logo.png" alt="Logo" style="background-color: black;">  
+                    <h1>E<span id="traco">-</span>      <!-- Texto do logo | único h1 na página -->
+                        Cars</h1> <!-- Texto do logo | formatar a classe .logo-text -->
+                    </a>
+                    <ul>
+                        <li><a href="modelos.html">Modelos</a></li>
+                        <li><a href="meioambiente.html">Meio Ambiente</a></li>
+                        <li><a href="vantagens.html">Vantagens</a></li>
+                    </ul>
             </nav>
-        </footer>
+        </header>   
 
         <main>
             <section class="container titulo">
-                <h2>Vantagens dos carros elétricos</h2>
-                <img src="Files/Vantagens/img1.png">
+                <h2 id="titulo">Vantagens dos carros elétricos<img src="Files/Vantagens/img1.png"></h2>
+                
             </section>
 
-            <article class="frame">
+            <div id="frame">
                 <ul>
-                    <li>Não emitem ruídos incômodos e nem geram poluentes.</li>
-                    <li>A condução do veículo é mais fácil, uma vez que o mecanismo 
-                        do motor sofre menos atrito em comparação com o motor a 
-                        combustível devido a eletricidade.</li>
-                    <li>Manutenção mais barata: os custos de reparos chegam a ser 
-                        70% menores em relação aos carros convencionais.</li>
-                    <li>O motor elétrico é cerca de 3 vezes mais eficiente que o motor 
-                        movido a gasolina.</li>
-                    <li>Possuem sistema de estacionamento automático.</li>
-                    <li>Menor custo de abastecimento.</li>
+                    <li><img src="Files/Vantagens/lista.png" alt="" class="list">Não emitem ruídos incômodos e nem geram poluentes;</li>
+                   <li><img src="Files/Vantagens/lista.png" alt=""  class="list"> A condução do veículo é mais fácil, uma vez que o <br> mecanismo 
+                        do motor sofre menos atrito em comparação <br> com o motor a 
+                        combustível devido a eletricidade;</li>
+                      <li><img src="Files/Vantagens/lista.png" alt=""  class="list">Manutenção mais barata: os custos de reparos <br> chegam a ser 
+                        70% menores em relação <br> aos carros convencionais;</li>
+                        <li><img src="Files/Vantagens/lista.png" alt=""  class="list">O motor elétrico é cerca de 3 vezes mais <br> eficiente que o motor 
+                        movido a gasolina;</li>
+                        <li> <img src="Files/Vantagens/lista.png" alt=""  class="list">Possuem sistema de estacionamento automático;</li>
+                    <li>    Menor custo de abastecimento.</li>
                 </ul>
-            </article>
+            </div>
         </main>
     </body>
 </html>

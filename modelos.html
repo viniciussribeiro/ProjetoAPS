@@ -10,55 +10,46 @@
     </head>
 
     <body>
-        <footer class="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox -->
-            <a href="index.html"> <!-- Clicando no logo volta pra página inicial -->
-                <div class="container logo"> <!-- Logo da E-Cars | Precisa sobrepor as imagens -->
-                    <img src="Files/logo-fundo.png" alt="fundo"> <!-- Fundo preto do logo -->
-                    <img src="Files/logo-desenho.png" alt="logo"> <!-- Desenho do logo -->
-                    <h1><span class="logo-text">E</span>-        <!-- Texto do logo | único h1 na página -->
-                        <span class="logo-text">Cars</span></h1> <!-- Texto do logo | formatar a classe .logo-text -->
-                </div>
-            </a>
-
+        <header id="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox --> 
             <nav> <!-- Barra de navegação -->
-                <ul>
-                    <li><a href="modelos.html">Modelos</a></li>
-                    <li><a href="meioambiente.html">Meio Ambiente</a></li>
-                    <li><a href="vantagens.html">Vantagens</a></li>
-                </ul>
+                <a href="index.html" id="grupoLogo">
+                     <img src="Files/logo.png" alt="Logo" style="background-color: black;">  
+                    <h1>E<span id="traco">-</span>      <!-- Texto do logo | único h1 na página -->
+                        Cars</h1> <!-- Texto do logo | formatar a classe .logo-text -->
+                    </a>
+                    <ul>
+                        <li><a href="modelos.html">Modelos</a></li>
+                        <li><a href="meioambiente.html">Meio Ambiente</a></li>
+                        <li><a href="vantagens.html">Vantagens</a></li>
+                    </ul>
             </nav>
-        </footer>
+        </header>   
 
         <main>
             <section class="titulo">
                 <h2>Modelos</h2>
             </section>
-
-            <section class="container">
-                <div class="item">
-                    <img src="Files/Modelos/img1.png">
-                    <p>Porsche taycan turbo S</p>
-                    <p>Autonomia: 400km</p>
+            <div id="tabela">
+                <div>
+                    <img src="Files/Modelos/img1.png" alt="">
+                    <p>Porsche taycan turbo S
+                        Autonomia: 400 Km</p>
                 </div>
-
-                <div class="item">
-                    <img src="Files/Modelos/img2.png">
-                    <p>Tesla model x</p>
-                    <p>Autonomia: 390km</p>
+                <div>
+                    <img src="Files/Modelos/img2.png" alt="">
+                    <p>Tesla model X
+                        Autonomia: 390 Km</p>
                 </div>
-
-                <div class="item">
-                    <img src="Files/Modelos/img3.png">
-                    <p>Lucid air</p>
-                    <p>Autonomia: 753km</p>
+                <div>
+                    <img src="Files/Modelos/img3.png" alt="">
+                    <p>Lucid air
+                        Autonomia: 753 km</p>
                 </div>
-
-                <div class="item">
-                    <img src="Files/Modelos/img4.png">
-                    <p>Civid hybrid 2023 2.0 </p>
-                    <p>Autonomia (1 tanque): 732km</p>
+                <div>
+                    <img src="Files/Modelos/img4.png" alt="">
+                    <p>Civic hybrid 2023 2.0 Autonomia (1 tanque): 732 Km</p>
                 </div>
-            </section>
+            </div>
         </main>
     </body>
 </html>

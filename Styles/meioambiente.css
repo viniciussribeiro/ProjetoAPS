@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    color: #7CA40A;
+    font-size: 30px;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+#container {
+    margin-top: 0;
+    padding:0;
+}
+#linkHome {
+    text-decoration: none;
+}
+#traco {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    background-color: black;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px;
+    
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+nav ul li a {
+    color: #7CA40A;
+    text-decoration: none;
+    
+}
+#grupoLogo {
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+.imagens {
+    margin-right: 30px;
+}
+#img1 {
+    width: 35vw;
+    height: 40vh;
+}
+#img2 {
+    width: 25vw;
+    height: 35vh;
+    margin-left: 20%;
+    margin-top: 5vh;
+}
+p {
+    font-size: 1.2em;
+    text-indent: 0;
+}

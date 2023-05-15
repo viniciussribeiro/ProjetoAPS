@@ -12,48 +12,46 @@
     <body>
         <header id="container"> <!-- Cabeçalho da página | Tag container serve para definir como flexbox --> 
             <nav> <!-- Barra de navegação -->
-                <img src="Files/logo.png" alt="" style="background-color: black;">
-                <a href="index.html">
-                
-                <h1>E<span id="traco">-</span>      <!-- Texto do logo | único h1 na página -->
-                    Cars</h1> <!-- Texto do logo | formatar a classe .logo-text -->
-                </a>
-                <ul>
-                    <li><a href="modelos.html">Modelos</a></li>
-                    <li><a href="meioambiente.html">Meio Ambiente</a></li>
-                    <li><a href="vantagens.html">Vantagens</a></li>
-                </ul>
+                <a href="index.html" id="grupoLogo">
+                     <img src="Files/logo.png" alt="Logo" style="background-color: black;">  
+                    <h1>E<span id="traco">-</span>      <!-- Texto do logo | único h1 na página -->
+                        Cars</h1> <!-- Texto do logo | formatar a classe .logo-text -->
+                    </a>
+                    <ul>
+                        <li><a href="modelos.html">Modelos</a></li>
+                        <li><a href="meioambiente.html">Meio Ambiente</a></li>
+                        <li><a href="vantagens.html">Vantagens</a></li>
+                    </ul>
             </nav>
         </header>   
 
-        <main> <!-- Corpo da página -->
+        <main id="menuPrincipal"> <!-- Corpo da página -->
             <section class="img1"> <!-- Aqui vai a imagem grande -->
                 <img src="Files/Index/img1.png">
             </section>
             
-            <section class="titulo"> <!-- Título | O único h2 da página -->
+            <section id="titulo"> <!-- Título | O único h2 da página -->
                 <h2>Bem vindo ao E-Cars!</h2>
                 <h2>Amantes dos carros elétricos</h2>
             </section>
 
-            <section> <!-- Aqui entra toda aquela linha de imagens e texto do final da página -->
-                <div>
+            <section id="grupoImg"> <!-- Aqui entra toda aquela linha de imagens e texto do final da página -->
+                 <div>
                     <img src="Files/Index/img2.png">
                 </div>
-
-                <div>
-                    <img src="Files/Index/Rectangle 3.png"> <!-- (Aquele retângulo verde em cima do texto) -->
-                    <article>
-                        Melhor aproveitamento de energia, aprimoramento 
-                        de performance, torque e economia em relação a
-                        combustão e fatores ambientais 
-                    </article>
-                    <img src="Files/Index/Rectangle 4.png"> <!-- (Aquele retângulo verde em baixo do texto) -->
-                </div>
-
-                <div class="img3">
-                    <img src="Files/Index/img3.png">
-                </div>
+                <div id="grupoTxt">
+                    <div id="barra1"></div>  
+                        <article>
+                            Melhor aproveitamento <br> de energia, aprimoramento 
+                            <br> de performance, torque <br>  e economia em relação a
+                            combustão <br> e fatores <br> ambientais 
+                        </article>
+                        <div id="barra2"></div> 
+                    </div>
+                    <div class="img3">
+                        <img src="Files/Index/img3.png">
+                    </div>
+               
             </section>
         </main>     
     </body>

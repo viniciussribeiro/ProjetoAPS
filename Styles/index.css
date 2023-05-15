@@ -6,11 +6,18 @@ h1 {
     color: #7CA40A;
     font-size: 30px;
 }
+#container {
+    margin-top: 0;
+    padding:0;
+}
 #linkHome {
     text-decoration: none;
 }
 #traco {
     color: black;
+}
+a {
+    text-decoration: none;
 }
 nav {
     display: flex;
@@ -18,10 +25,66 @@ nav {
 }
 nav ul {
     background-color: black;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px;
+    
+    
 }
 nav ul li {
     display: inline-block;
+    margin-left: 20px;
+    
 }
 nav ul li a {
     color: #7CA40A;
+    text-decoration: none;
+    
+}
+#grupoLogo {
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+#menuPrincipal {
+    margin-top: 5%;
+}
+#menuPrincipal img {
+    width: 100%;
+    position: relative;
+}
+#titulo {
+    text-align: center;
+}
+#grupoImg {
+    align-items: center;
+    margin-right: 20px  ;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+#grupoImg img {
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+#barra1 {
+    background-color: #B8DE6A;
+    width: 15vw;
+    height: 7vh;
+    opacity: 0.5;
+}
+#barra2 {
+    background-color: #B8DE6A;
+    width: 10vw;
+    height: 7vh;
+    opacity: 0.5;
+    margin-bottom: 15vh;
+}
+#grupoTxt {
+    display: block;
 }
