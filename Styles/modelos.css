@@ -54,11 +54,12 @@ nav ul li a {
 }
 #tabela {
     display: grid;
-    grid-template-columns: 500px 500px;
     justify-content: center;
-   
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
 }
 #tabela img {
   width: 35vw;
-    height: 40vh;
+  height: 40vh;
 }
